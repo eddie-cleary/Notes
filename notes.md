@@ -69,3 +69,92 @@
             2. Only the bytecode that can benefit from performance improvements by converting to native code are compiled
             3. Improves overall performance
    7. Servlets: Java on the Server Side
+      1. A small program that executes Java on the server
+      2. Can handle multiple requests from client via threads
+      3. Returns dynamically generated content to the user
+   8. The Java Buzzwords
+      1. Simple
+         1. Designed by programmers to be easy to use. Uses basic concepts of object-oriented programming
+      2. Secure
+         1. Execution context can be confined to the jre ensuring security across OS
+      3. Portable
+         1. Can run Java on any OS and CPU architecture that has a JVM and many do
+      4. Object-oriented
+         1. Java struck a balance between everything being objects and primitive types kept as high-performing non-objects
+      5. Robust
+         1. Strictly typed language - making programs behave in a predictable way under diverse conditions
+         2. Java manages memory allocation and deallocation for you which results in much fewer bugs
+      6. Multithreaded
+         1. Java uses an easy-to-use multithreading approach that keeps the focus on program behavior instead of the multitasking subsystem
+         2. Useful to meet the real-world requirement of building interactive, networked programs
+      7. Architecture-neutral
+         1. It's not just "write once, run anywhere", it's also "write once, run anywhere ***forever***"
+         2. Because Java is only reliant on its own JVM which is backwards compatible, issues with OS and architecture changes overtime will not affect legacy programs
+      8. Interpreted
+         1. Compiles to Java bytecode enabling cross-platform programs
+      9. High performance
+         1. Although the code is not native, Java's ability to convert its bytecode to native code using its JIT makes it very performant  
+      10. Distributed
+          1. Designed for the internet because it handles TCP/IP protocols
+          2. Accessing URLs is similar to accessing files
+          3. Remote Method Invocation (RMI) allows a program to invoke methods across a network
+      11. Dynamic
+          1. Allows for dynamic linking of additional code in a safe manner due to Java's bytecode being dynamically updated to ensure authorized object access   
+   9. The Evolution of Java
+       1. Java continued to evolve at an explosive pace after its release
+       2. Java 1.1
+          1. Came out soon after 1.0 release
+          2. Added and subtracted attributes of original publication
+       3. Java 2
+          1. Marked beginning of Java's "modern age"
+          2. Although called Java 2, it was officially version 1.2
+          3. Sun referred to it as J2SE 2 (Java 2 Platform Standard Edition)
+          4. Added Swing and Collections Framework
+          5. Got rid of some Thread methods
+             1. suspend() resume() stop() were all deprecated
+       4. Java 5
+          1. Significantly expanded scope, power, and range of Java
+          2. Major new features
+             1. Generics
+             2. Annotations
+             3. Autoboxing and auto-unboxing
+             4. Enumerations
+             5. Enhanced "for-each style" *for* loop
+             6. Variable-lengh arguments (varargs)
+             7. Static import
+             8. Formatted I/O
+             9. Concurrency utilities
+       5. Java 6
+          1. Incremental improvements, no major features
+          2. Enhanced API libraries, added new packages, improved run time
+       6. Java 7
+          1. First release under Oracle
+          2. Upgrades to the language and api libraries
+          3. Upgrades to NIO (New IO) Framework
+          4. Added Fork/Join framework enabling parallel programming for multicore processors
+       7. Java 8
+          1. Added Lambda expressions - functional programming expressions
+             1. Can reduce the amount of source code needed to create certain constructs
+          2. New stream api that uses Lambda expressions
+          3. Added default methods for interfaces
+          4. New time and date API
+          5. Ability to use parallel processing when sorting arrays
+       8. Java 9
+          1. Introduced modules which allow you to specify the relationship and dependencies of code in an application
+          2. jlink which allows you to create a runtime image of an application containing only the necessary modules
+          3. Deprecated applets
+       9. Java 10
+          1. Support for local variable type inference through var keyword
+       10. Java 11
+           1. Added networking API called the HTTP Client API
+       11. Java 14
+           1. Added switch statement
+       12. Java 15
+           1. Added text blocks with string literals
+       13. Java 16
+           1. Enhanced instanceof with pattern matching
+           2. Added a new class type - record which provides a convenient way to aggregate data
+       14. Java 17
+           1. 10. Ability to seal classes and interfaces
+              1. Allows developers to authorize what classes can extend a parent class or interface
+              2. Better control over hierarchies, security, maintainability  
